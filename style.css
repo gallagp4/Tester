@@ -1,0 +1,53 @@
+*{
+    background-color: dimgrey;
+    color: wheat;
+}
+
+h1{
+    text-align: center;
+
+    color: wheat;
+}
+
+
+p{
+    color: black;
+}
+/*
+.vertical_center{
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}*/
+
+.button_holder{
+
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.button_holder button{
+    /*border: none;*/
+    padding: 10px;
+    min-height: 30px;
+    min-width: 300px;
+}
+
+.button:hover{
+    background-color:darkgray ;
+    transition: 0.3s;
+}
+
+#box1{
+    border-width: medium;
+    border-color: black;
+    border-style: solid;
+    color: wheat;
+
+}
+
+.box_holder{
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
